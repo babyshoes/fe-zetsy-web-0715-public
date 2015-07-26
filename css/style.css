@@ -1,7 +1,7 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
-
+@font-face {font-family: Baskerville; src: url('fonts/Baskerville.ttc');}
 /*////////// Global Styles //////////*/
 
 body {
@@ -18,3 +18,68 @@ body {
 }
 
 /* Write all remaining styles here */
+
+/*Type Selectors */
+
+h1 {
+  margin: 0 0 5px;
+  font-size: 5em;
+  font-weight: normal;
+  font-family: 'Baskerville', serif;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+h2 {
+  color: rgb(111,127, 122);
+  font-size: 2em;
+}
+
+p {
+  color: #555;
+  font-size: 1em;
+  margin: 0 0 20px 0;
+}
+
+footer {
+  text-align: right;
+  font-size: 0.8em;
+}
+
+/* ID Selectors */
+
+#press {
+  margin-bottom: 20px;
+}
+
+/* Descendent Selectors */
+
+header a {
+  color: rgb(152, 173, 166);
+  text-decoration: none;
+}
+
+#press img {
+  border: 5px #ccc solid;
+  padding: 1px;
+}
+
+#featured a {
+  color: rgb(31, 109, 178);
+  text-decoration: none;
+}
+
+/* Pseudo Selectors */
+
+header a:hover{
+  color: rgb(93, 108, 102);
+}
+
+#featured a:hover{
+  text-decoration: underline;
+}
+
+#press img:hover {
+  border-color: rgb(93, 108, 102);
+  padding: 1px;
+}
